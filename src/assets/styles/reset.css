@@ -1,0 +1,21 @@
+html {
+  font-size: var(--typo-paragraph);
+  box-sizing: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-main);
+  background-color: var(--color-background-content);
+  color: var(--color-text-content);
+}
+
+img {
+  max-width: 100%;
+}

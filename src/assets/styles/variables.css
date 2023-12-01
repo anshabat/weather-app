@@ -1,0 +1,37 @@
+:root {
+  /* General */
+  --font-family-main: 'Roboto', sans-serif;
+  --overlay-bg: rgba(0 0 0 / 20%);
+  --animation-delay: 0.3s;
+
+  /* Size */
+  --color-primary: #0390E2FF;
+  --color-secondary: #7B8190FF;
+  --color-error: #B87A7AFF;
+  --color-background-main: #fff;
+  --color-background-content:#f7f8fa;
+  --color-text-heading: #383c40;
+  --color-text-content: #495057;
+  --color-text-helper: #7b8190;
+  --color-border: #e2e5e8;
+
+  /* Typography */
+  --typo-h1: 1.8rem; /* 28 */
+  --typo-h2: 1.6rem; /* 25 */
+  --typo-h3: 1.4rem; /* 22 */
+  --typo-h4: 1.2rem; /* 20 */
+  --typo-h5: 1.1rem; /* 18 */
+  --typo-paragraph: 1rem; /* 16 */
+  --typo-main: 14px;
+  --typo-small: 12px;
+  --typo-tiny: 10px;
+
+  /* Spacing */
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-64: 64px;
+}
