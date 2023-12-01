@@ -1,0 +1,13 @@
+.page__header {
+  margin-bottom: var(--spacing-32);
+}
+
+.page__title {
+  font-size: var(--typo-h1);
+  color: var(--color-text-heading);
+  margin: 0;
+}
+
+.page__content {
+  position: relative;
+}

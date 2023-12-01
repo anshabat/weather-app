@@ -1,0 +1,11 @@
+.card {
+  position: relative;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-background-main);
+  padding: var(--spacing-16);
+  border-radius: var(--border-radius);
+}
+
+.card__title {
+  padding-bottom: var(--spacing-16);
+}

@@ -1,0 +1,24 @@
+.weather-card {
+  position: relative;
+}
+
+.weather-card__title {
+  font-size: var(--typo-h3);
+  color: var(--color-text-heading);
+}
+
+.weather-card__list {
+  display: grid;
+  grid-template-columns: max-content auto;
+  gap: var(--spacing-16) var(--spacing-32);
+}
+
+.weather-card__list > dd {
+  margin: 0;
+}
+
+.weather-card__loading {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
