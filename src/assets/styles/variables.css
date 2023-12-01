@@ -35,4 +35,10 @@
   --spacing-24: 24px;
   --spacing-32: 32px;
   --spacing-64: 64px;
+
+  /* Z-index */
+  --z-index-l: 1000;
+  --z-index-m: 100;
+  --z-index-s: 10;
+  --z-index-xs: 1;
 }

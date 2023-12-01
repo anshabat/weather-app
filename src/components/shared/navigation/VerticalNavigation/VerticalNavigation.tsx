@@ -6,15 +6,17 @@ import classNames from "classnames";
 type Props = {
   items: MenuItem[];
   collapsed?: boolean;
+  isMobile?: boolean;
 };
 
 const VerticalNavigation = (props: Props) => {
-  const { items, collapsed = false } = props;
+  const { items, collapsed = false, isMobile = false } = props;
 
   return (
     <ul
       className={classNames("vertical-nav", {
         "vertical-nav--collapsed": collapsed,
+        "vertical-nav--mobile": isMobile,
       })}
     >
       {items.map((item) => {

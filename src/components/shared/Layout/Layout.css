@@ -64,6 +64,7 @@
   background-color: var(--color-background-main);
   border-right: 1px solid var(--color-border);
   transition: width var(--animation-delay) linear, transform var(--animation-delay) linear;
+  z-index: var(--z-index-s);
 }
 
 .layout--mobile .layout__sidebar {

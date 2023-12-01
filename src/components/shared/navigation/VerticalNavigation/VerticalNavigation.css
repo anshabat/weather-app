@@ -19,7 +19,7 @@
   height: 40px;
 }
 
-.vertical-nav--collapsed .vertical-nav__link  {
+.vertical-nav--collapsed:not(.vertical-nav--mobile) .vertical-nav__link  {
   justify-content: center;
 }
 
@@ -32,6 +32,6 @@
   flex-shrink: 0;
 }
 
-.vertical-nav--collapsed .vertical-nav__title {
+.vertical-nav--collapsed:not(.vertical-nav--mobile) .vertical-nav__title {
   display: none;
 }
