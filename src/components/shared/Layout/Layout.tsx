@@ -35,7 +35,7 @@ const Layout = (props: Props) => {
           </div>
           <Hamburger onClick={onToggleCollapse} />
         </div>
-        <nav className="layout__navbar">navbar</nav>
+        <nav className="layout__tagline">Weather App</nav>
       </div>
       <div className="layout__main">
         <div className="layout__sidebar">{renderSidebar(collapsed)}</div>
