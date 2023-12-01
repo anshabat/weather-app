@@ -3,6 +3,7 @@
   --font-family-main: 'Roboto', sans-serif;
   --overlay-bg: rgba(0 0 0 / 20%);
   --animation-delay: 0.3s;
+  --border-radius: 4px;
 
   /* Size */
   --color-primary: #0390E2FF;

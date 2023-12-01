@@ -9,5 +9,5 @@
 }
 
 .logo__text {
-  margin-left: 5px;
+  margin-left: var(--spacing-8);
 }
